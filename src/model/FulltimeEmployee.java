@@ -2,6 +2,8 @@ package model;
 
 import model.Employee;
 
+import java.io.Serializable;
+
 public class FulltimeEmployee extends Employee {
     private double Bonus;
     private double Fine;
@@ -60,7 +62,7 @@ public class FulltimeEmployee extends Employee {
                 "IdEmployee="+getIdEmployee()+
                 ";FullnameEmloyee="+getFullnameEmloyee()+
                 ";AgeofEmplyee="+getAgeofEmplyee()+
-                ";PhoneNumberOfEmployee"+getPhoneNumberOfEmployee()+
+                ";PhoneNumberOfEmployee="+getPhoneNumberOfEmployee()+
                 ";EmailOfEmployee="+getEmailOfEmployee() +
                 ";Bouns="+getBonus()+
                 ";Fine="+getFine()+
